@@ -8,6 +8,7 @@ kreacyjne - omawiające sposoby tworzenia obiektów
     singletony - do tworzenia dokładnie 1 obiektu dla klasy
     fabryki - do tworzenia obiektów z 1 rodziny
     fabryki abstrakcyjne - gdzie dla każdego obiektu z rodziny mamy osobną fabrykę i 1 punkt wejścia do fabryk
+    builder - gdy mamy część (albo ani jednego) parametrów wymaganych, a część opcjonalną
 
 strukturalne -
 behawioralne
