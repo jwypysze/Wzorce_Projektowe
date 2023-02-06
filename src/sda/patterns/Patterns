@@ -11,5 +11,8 @@ kreacyjne - omawiające sposoby tworzenia obiektów
     builder - gdy mamy część (albo ani jednego) parametrów wymaganych, a część opcjonalną
     prototype - gdy mamy wzorzec wzorcowy i "odkopiowujemy" go na nowo do bieżącego użycia
 
-strukturalne -
+strukturalne - definiują powiązanie między obiektami
+
+    facade (fasada) - umożliwia wystawienie spójnego, łatwego do zastosowania interfejsu
+
 behawioralne
