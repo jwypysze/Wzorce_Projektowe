@@ -19,4 +19,7 @@ strukturalne - definiują powiązanie między obiektami
     decorator - dokłada dodatkowe funkcjonalności do bazowego obiektu, otrzymujemy nadal obiekt tego samego typu
     composite - pozwala w ten sam sposób traktować obiekty proste i złożone, wykonując te same operacje na nich
 
-behawioralne
+behawioralne - dokładają nowe możliwości obiektom sprawiając że obiekty wyglądają jak coś innego z większymi możliwościmi
+    templateMethod - definiuje algorytm wykonywania jakiegoś zadania, częśc kroków pozostawia do definicji
+    programiście końcowemu a częśc oraz kolejność wykonywania kroków jest odgórnie ustalona
+
