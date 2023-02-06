@@ -14,5 +14,8 @@ kreacyjne - omawiające sposoby tworzenia obiektów
 strukturalne - definiują powiązanie między obiektami
 
     facade (fasada) - umożliwia wystawienie spójnego, łatwego do zastosowania interfejsu
+    proxy - służy jako warstwa bezpieczeństwa albo warstwa cache - "pamięci podręcznej"
+    flyweight - dzięki jego zastosowaniu możemy konstruować mniej obiektów i będą one mniejsze
+
 
 behawioralne
