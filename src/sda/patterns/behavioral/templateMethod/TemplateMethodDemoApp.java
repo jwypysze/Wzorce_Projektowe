@@ -1,4 +1,7 @@
-package sda.patterns.behavioral;
+package sda.patterns.behavioral.templateMethod;
+
+import sda.patterns.behavioral.templateMethod.EmailNewsProvider;
+import sda.patterns.behavioral.templateMethod.NewsProvider;
 
 public class TemplateMethodDemoApp {
     public static void main(String[] args) {

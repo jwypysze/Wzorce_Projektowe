@@ -1,6 +1,6 @@
-package sda.patterns.behavioral;
+package sda.patterns.behavioral.templateMethod;
 
-public class EmailNewsProvider extends NewsProvider{
+public class EmailNewsProvider extends NewsProvider {
     private String email;
 
     public EmailNewsProvider(String email) {
