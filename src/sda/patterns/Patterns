@@ -1,29 +1,30 @@
-Wzorce projektowe - ogólnie przyjęte sposoby pisania często pojawiających się problemów/zadań.
+Wzorce projektowe - ogólnie przyjęte sposoby pisania często pojawiających się
+problemów / zadań.
 
-GoF - Gang of Four - grupka 4 amerykańskich nauczycieli programowania która opracowała dużą ilość wzorców
+GoF - Gang of Four - grupka 4 amerykańskich nauczycieli programowania która opracowała
+dużą ilość wzorców
 
 Wzorce dzielimy na:
-kreacyjne - omawiające sposoby tworzenia obiektów
-
-    singletony - do tworzenia dokładnie 1 obiektu dla klasy
-    fabryki - do tworzenia obiektów z 1 rodziny
-    fabryki abstrakcyjne - gdzie dla każdego obiektu z rodziny mamy osobną fabrykę i 1 punkt wejścia do fabryk
-    builder - gdy mamy część (albo ani jednego) parametrów wymaganych, a część opcjonalną
-    prototype - gdy mamy wzorzec wzorcowy i "odkopiowujemy" go na nowo do bieżącego użycia
-
-strukturalne - definiują powiązanie między obiektami
-
-    facade (fasada) - umożliwia wystawienie spójnego, łatwego do zastosowania interfejsu
-    proxy - służy jako warstwa bezpieczeństwa albo warstwa cache - "pamięci podręcznej"
-    flyweight - dzięki jego zastosowaniu możemy konstruować mniej obiektów i będą one mniejsze
-    decorator - dokłada dodatkowe funkcjonalności do bazowego obiektu, otrzymujemy nadal obiekt tego samego typu
-    composite - pozwala w ten sam sposób traktować obiekty proste i złożone, wykonując te same operacje na nich
-
-behawioralne - dokładają nowe możliwości obiektom sprawiając że obiekty wyglądają jak coś innego z większymi możliwościmi
-
-    templateMethod - definiuje algorytm wykonywania jakiegoś zadania, częśc kroków pozostawia do definicji
-    programiście końcowemu a częśc oraz kolejność wykonywania kroków jest odgórnie ustalona
-
-    strategy (policy) - strategia bądź polityka - nazwy wymienne, określają jak zaimplementować kilka różnych
-    algorytmów realizujących podobne zadanie
-
+ - kreacyjne - omawiające sposoby tworzenia obiektów
+   --singleton(y) - do tworzenia dokładnie jednego obiektu dla klasy
+   --fabryki - do tworzenia obiektów z jednej rodziny
+   --fabryki abstrakcyjne - gdzie dla każdego obiektu z rodziny mamy osobną fabrykę i jeden punkt wejścia do fabryk
+   --builder - gdy mamy część (albo ani jednego) parametrów wymaganych, a część opcjonalną
+   --prototype - gdy mamy wzorzec wzorcowy i "odkopiowujemy" go na nowo do bieżącego użycia
+ - strukturalne - definiują powiązania między obiektami
+   --facade (fasada) - umożliwia wystawienie spójnego, łatwego do zastosowania interfejsu
+   --proxy - służy jako warstwa bezpieczeństwa albo warstwa cache - "pamięci podręcznej"
+   --flyweight - dzięki jego zastosowaniu możemy konstruować mniej obiektów i będą one mniejsze
+   --decorator - dokłąda dodatkowe funkcjonalności do bazowego obiektu, otrzymujemy nadal obiekt tego samego typu
+   --composite - pozwala w ten sam sposób traktować obiekty proste i złożone, wykonując te same operacje na nich
+ - behawioralne - dokłądają nowe możliwości obiektom, sprawiając że obiekty wyglądają jak coś innego, z większymi możliwościami
+   --templateMethod - definiuje algorytm wykonywania jakiegoś zadania, część kroków pozostawia do definicji
+     programiście "końcowemu", a część, oraz kolejność wykonywania kroków jest odgórnie ustalona
+   --strategy (policy) - strategia bądź polityka - nazwy wymienne - określają jak zaimplementować kilka różnych algorytmów
+     realizujących podobne zadanie
+   --command - pozwala "obudować" zadania jakie wykonuje klasa swoimi metodami o dodatkowe możliwości (np. logowanie,
+     trzymanie historii operacji, ...)
+   --chainOfRespoisibility - wzorzec pozwalający na rozłożenie skomplikowanej weryfikacji na listę małych, podobnych w budowie kroków
+   --memento - służy do zapamiętania obrazu (stanu) innego obiektu
+   --visitor - polega na wyposażeniu różnych obiektów w taką samą funkcjonalność na potrzeby operacji która musi być wykonana podobinie
+     dla wszystkich tych obiektów
